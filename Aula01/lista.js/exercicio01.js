@@ -2,6 +2,7 @@
  * exercicio 01) faça um programa que leia 3 números inteiros e apresente o menor deles 
  */
 
+
 let n1 = 5;
 let n2 = 6;
 let n3 = 7;
@@ -16,6 +17,6 @@ else{
 }
 
 if(n3 < menor) {
-    menor = n3;
+    menor= n3;
 }
 console.log(`o menor numero é ${menor}`);
