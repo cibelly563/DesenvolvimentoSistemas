@@ -1,0 +1,18 @@
+let nota1=6;
+let nota2=7;
+let nota3=102;
+
+if (nota1 >= 0 && nota1 <= 100 &&
+    nota2 >= 0 && nota2 <= 100 &&
+    nota3 >= 0 && nota3 <= 100 ){
+
+        let media = (nota1+nota2+nota3)/3;
+     console.log("a media das notas é", media);
+
+     }else{
+        console.log("uma ou mas notas são invalidas,as notas tem que estar em um intervalo de 0 a 100.");
+        
+     }
+
+     
+     
