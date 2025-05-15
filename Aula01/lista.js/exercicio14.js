@@ -1,3 +1,4 @@
+/**faça um programa que calcule a media de 3 notas e se somente se essas notas forem validas,uma nota é considerada valida se ela for maior ou igual a 0 ou menor ou igual a 100*/
 let nota1=6;
 let nota2=7;
 let nota3=102;

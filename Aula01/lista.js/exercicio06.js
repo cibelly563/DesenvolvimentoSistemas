@@ -1,3 +1,6 @@
+/**Solicite um número e verifique se ele é negativo, caso seja verifique se ele é par ou ímpar e exiba
+o número e se é par ou ímpar. */
+
 function verificarNumero(numero) {
 
 if(numero<0){

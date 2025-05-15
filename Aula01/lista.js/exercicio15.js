@@ -1,3 +1,6 @@
+/**Faça um programa que leia 3 valores e verifique se todos são inteiros e positivos, em seguida
+exiba quais deles são inteiros ou não e positivos ou negativos. */
+
 function verificarValor(valor1, valor2, valor3) {
 
     if (valor1 < 0) {

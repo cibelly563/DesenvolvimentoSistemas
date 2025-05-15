@@ -1,3 +1,8 @@
+/**28. Faça um programa que solicite qual a média o estudante quer calcular, para isso exiba um menu
+com as seguintes opções: (1) aritmética simples, (2) aritmética ponderada e (3) sair. Implemente
+todas as opções, exibindo se o estudante está aprovado (nota maior ou igual a 60), em
+recuperação (nota entre 40 e 59) e reprovado (nota inferior a 40). */
+
 function verificarMedia(opcao,nota1,nota2,nota3,peso1,peso2,peso3){
     let media=0
         switch (opcao){

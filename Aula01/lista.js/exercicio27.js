@@ -1,3 +1,6 @@
+/**Faça um programa que leia dois valores e imprima uma das três mensagens a seguir: “Números
+iguais” – caso os números sejam iguais, “Primeiro é maior” – caso o primeiro seja maior que o
+segundo, “Segundo maior” – caso o segundo seja maior que o primeiro. */
 function compararNumeros(n1,n2){
     if(n1==n2){
         console.log("Numeros iguais");

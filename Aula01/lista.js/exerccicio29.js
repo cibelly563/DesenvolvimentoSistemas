@@ -1,3 +1,11 @@
+/**Dado a tabela abaixo, solicite ao usuário o código do produto que ele deseja, exibindo o preço de
+venda (preço de compra mais o aumento de lucro) e a quantidade. Exiba ao usuário um extrato
+de compra com o produto selecionado, o preço de venda, quantidade desejada e total a pagar.
+Código Produto Preço de compra Aumento de lucro Quantidade
+1 Ovos R$ 15,00 (bandeja) 30% 5
+2 Pães R$ 5,00 (8 unidades) 25% 9
+3 Café R$ 7,89 (unidade) 45% 3 */
+
 function extratoCompra(codigoProduto, quantidadeDesejada) {
     let nome = "";
     let precoCompra = 0;

@@ -1,3 +1,6 @@
+/**Faça um programa que leia o ano atual e o ano de nascimento de uma pessoa e em seguida exiba
+uma mensagem que diga se ela poderá ou não votar este ano (não é necessário considerar o mês
+em que a pessoa nasceu). */
 function verificarVoto(anonascimento,anoatual){
     let idade = anoatual-anonascimento;
     if(idade<=16){
