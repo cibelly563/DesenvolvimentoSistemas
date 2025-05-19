@@ -6,11 +6,21 @@
 
 function contarVogais(texto){
    let vogais = "aeiouAEIOU";
+   let contador=0
 
-    return(vogais.indexOf(texto))
+     if (vogais.indexOf(texto[0]) !== -1) contador++;
+  if (vogais.indexOf(texto[1]) !== -1) contador++;
+  if (vogais.indexOf(texto[2]) !== -1) contador++;
+  if (vogais.indexOf(texto[3]) !== -1) contador++;
+  if (vogais.indexOf(texto[4]) !== -1) contador++;
+  if (vogais.indexOf(texto[5]) !== -1) contador++;
+  if (vogais.indexOf(texto[6]) !== -1) contador++;
 
-    
+  return contador;
+
 }
+
+
 let texto= "cibelly";
 
 console.log(contarVogais("cibelly"));
