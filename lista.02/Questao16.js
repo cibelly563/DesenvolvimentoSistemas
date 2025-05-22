@@ -8,15 +8,15 @@ function calcularSalario(salarioBruto){
     let descontoSalario;
     let percentual;
 
-    if(salarioBruto<=1.518,00){
+    if(salarioBruto<=151800){
         percentual = 5
         descontoSalario =  salariobruto * 0.05;
 
-    } else if (salarioBruto<=2.826,65){
+    } else if (salarioBruto<=282665){
         percentual = 7.5
         descontoSalario = salarioBruto *  0.075;
 
-    }else if(salarioBruto<=3.751,05){
+    }else if(salarioBruto<=375105){
         percentual = 15
         descontoSalario = salarioBruto * 0,015;
 
