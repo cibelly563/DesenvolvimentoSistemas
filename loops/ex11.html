@@ -8,10 +8,18 @@
 <body>
     <p>Faça um programa que leia números inteiros digitados pelo usuário até que seja digitado um
 número negativo. Conte quantos números foram digitados e exiba esse valor na tela.</p>
-
 <script>
+    let contador = 0;
+    let numero;
+    do{
+        numero = parseInt(prompt("digite um numero"))
 
+        if(numero>=0){
+            contador++
+        }
+    } while(numero>=0)
+
+    alert(`Você digitou ${contador} números positivos.`);
 </script>
-
 </body>
 </html>
