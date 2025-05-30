@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>Faça um programa que leia n números e depois exibia a média aritmética desses n números até
+que o usuário digite valor 0;</p>
+<script>
+    let mediaaritimetica;
+
+    while(true){
+        let n = Number(prompt("digite um numero"))
+        if(n===0){
+            break;
+        }
+          mediaaritimetica = (n + n + n) / 3;
+    }
+    document.writeln(`<h1> a media aritmetica é ${mediaaritimetica}`)
+</script>
+</body>
+</html>

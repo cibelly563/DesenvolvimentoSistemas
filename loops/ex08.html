@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>Faça um programa que leia várias palavras até que seja digitada a palavra “sair”. Conte quantas
+vezes foi digitada a palavra “oi”.</p>
+
+<script>
+    let cont = 0
+    while(true){
+        let palavra =  prompt("digite uma palavra")
+
+        if(palavra === "sair"){
+            break
+        }
+        if(palavra ==="oi"){
+            cont++
+        }
+    }
+    alert(`a palavra oi foi digitada ${cont} vezes`)
+    document.writeln(`<h1> a palavraoi foi digitada ${cont} vezes`)
+</script>
+</body>
+</html>
