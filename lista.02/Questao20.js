@@ -1,26 +1,20 @@
 /**20. Crie uma função chamada somaDigitosPrimos que receba um número inteiro positivo e retorne a soma
 dos dígitos que são números primos. */
 
-function somaDigitosPrimos(digito01,digito2,digito3){
-    let soma= digito01+digito2+digito3;
+function somaDigitosPrimos(numero) {
+  let digito = numero % 10;
+  let soma = 0;
 
-    if(digito01%1==0 && digito01%digito01==0 ){
-     console.log("o numero é primo");
-     
-    }
+  if (digito === 2 || digito === 3 || digito === 5 || digito === 7) {
+    soma += digito;
+  }
 
-    if(digito2%1==0 && digito2%digito2==0 ){
-     console.log("o numero é primo");
-    }
+  if (numero >= 10) {
+    soma += somaDigitosPrimos((numero - digito) / 10);
+  }
 
-    if( digito3%1==0 && digito3%digito3){
-       console.log("o numero é primo");
-    }
-      
-    console.log("a soma dos digitos é",soma);
-
-    return;
+  return soma;
 }
 
-
-somaDigitosPrimos(5, 7 , 8);
+// Exemplo de uso:
+console.log(somaDigitosPrimos(23957)); // Saída: 17

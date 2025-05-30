@@ -1,10 +1,6 @@
-/**Faça uma função que converta reais (BRL) para dólares (USD). */
-
-function converter(valorReal){
-  let valorDolar = valorReal* 0.1764;
-  return valorDolar;
+function converter (realDolar){
+    let valorDolar = 5.65;
+    let valorReal = realDolar * valorDolar;
+    return valorReal;
 }
-let real = 100;
-let valorDolar = converter(real);
-console.log(`R$  ${real} equivale a ${valorDolar} em dolares` );
-
+console.log(`o valor do real em dolar é ${converter(100)}`);
