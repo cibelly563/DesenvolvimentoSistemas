@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>Faça um programa que leia números digitados pelo usuário até que seja digitado um número
+negativo. Calcule a média aritmética dos números divisíveis por 3.</p>
+<script>let soma = 0;
+        let contador = 0;
+        
+        while(true) {
+            let numero = Number(prompt("Digite um número: "));
+            
+            if (numero < 0) {
+                break;
+            }
+            
+            if (numero % 3 === 0) {
+                soma += numero;
+                contador++;
+            }
+        }
+        
+        let media = contador > 0 ? soma / contador : 0;
+        document.writeln(`Média dos números divisíveis por 3: ${media}`);</script>
+</body>
+</html>
