@@ -1,3 +1,5 @@
+/**21. Faça um programa que verifique se 121 é um número primo. */
+
 let numero = 121;
 let divisores = 0;
 

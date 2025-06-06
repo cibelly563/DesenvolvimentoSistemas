@@ -1,3 +1,5 @@
+/**24. Faça um programa que leia 20 valores e no final escreva o maior e o menor valor lido. */
+
 let valores = [5, 12, 7, 20, 3, 15, 9, 30, 2, 18, 6, 1, 22, 14, 4, 11, 8, 17, 10, 13];
 
 let maior = valores[0];

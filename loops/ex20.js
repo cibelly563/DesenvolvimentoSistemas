@@ -1,3 +1,6 @@
+/**20. Por definição, um número é dito primo quando ele só é divisível por 1 e por ele mesmo, ou seja,
+possui 2 divisores. */
+
 let numero = 17; // Número fixo
 let divisores = 0;
 
