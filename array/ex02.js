@@ -11,7 +11,7 @@ carros.pop();
 //adicionando mas elementos no array
 carros.push('l200');
 carros.push('a3');
-carros.push('uno');
+carros.push('uno'); 
 //pecorrendo o array
 for(let i = 0; i< carros.length; i++ ){
     console.log("indice" + i);
