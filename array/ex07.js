@@ -5,9 +5,6 @@
 
 
 let cores = ['amarelo','rosa','verde']
-let indicerosa = cores.indexOf('amarelo')
-if(indicerosa != 1){
-    cores.splice(indicerosa,1 )
-    cores.push('roxo')
-}
-console.log(cores)
+cores.push('rosa');
+cores.shift();
+console.log(cores);
