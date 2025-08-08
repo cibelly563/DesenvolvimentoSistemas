@@ -1,0 +1,37 @@
+body {
+    background-color: #555;
+
+}
+h2 {
+    text-align: center;
+    color:#fefefe;
+    text-decoration: underline;
+   text-underline-offset: 8px;
+}
+
+#numero {
+    font-size: 16px;
+    padding-inline: 8px;
+    padding-block: 4px;
+    text-align: center;
+    outline: none;
+}
+
+#btnadicionar{
+    border: none;
+    padding: 4px;
+    border-radius: 2px;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+}
+
+#btnadicionar:hover{
+    background-color: yellowgreen;
+    cursor: pointer;
+}
+
+#exibir-array{
+    background-color: red;
+    color: white;
+}
