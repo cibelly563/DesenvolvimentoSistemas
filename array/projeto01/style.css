@@ -35,3 +35,16 @@ h2 {
     background-color: red;
     color: white;
 }
+#btnremover{
+    border: none;
+    padding: 4px;
+    border-radius: 2px;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+}
+
+#btnremover:hover{
+    background-color: yellowgreen;
+    cursor: pointer;
+}
